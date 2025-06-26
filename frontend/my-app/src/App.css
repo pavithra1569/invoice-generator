@@ -1,0 +1,86 @@
+body {
+  background: #f8f9fa;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+.card, .shadow-lg, .rounded {
+  border-radius: 1rem !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08), 0 1.5px 4px rgba(0,0,0,0.04);
+  border: none;
+}
+
+.btn-primary, .btn-success, .btn-secondary {
+  border-radius: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.btn-primary:hover, .btn-success:hover, .btn-secondary:hover {
+  filter: brightness(0.95);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.form-control, .form-label {
+  border-radius: 0.75rem;
+  font-size: 1rem;
+}
+
+input:focus, .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.10);
+}
+
+.navbar {
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  background: #fff !important;
+}
+
+.navbar-brand, .navbar-nav .nav-link, .navbar-nav .btn {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #222 !important;
+}
+
+h1, h3, h4 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.lead {
+  color: #555;
+}
+
+.shadow-lg {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10) !important;
+}
+
+/* Invoice Table Styling */
+.table {
+  background: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.alert {
+  border-radius: 0.75rem;
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+  .card, .shadow-lg {
+    border-radius: 0.5rem !important;
+  }
+}
